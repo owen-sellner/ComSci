@@ -1,0 +1,52 @@
+/*Background image*/
+html,body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../Images/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*Header colour/design*/
+#header{ 
+	background-color: gray;
+	padding: 10px;
+	text-align: center;
+	background-image: linear-gradient(gray,white);
+	font-family: "serif", helvetica;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+ }
+ ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 134px;
+	width: 100%;
+/* Controls the background colour of the page links */
+	background-color: #333;
+    overflow: hidden;
+    font-family: "serif", helvetica;
+}
+
+li a {
+	display: block;
+ 	color: #f2f2f2;
+ 	float: left;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ 	font-size: 18px;
+}
+ /*Controls size, and removes underline of page titles*/
+li a:hover {
+	background-color: #DCD0C0;
+ 	color: black;
+}
+
+ /*Edits the colour of the links when the curser is over it*/
+ li a.active {
+	background-color: #DCD0C0;
+ 	color: black; 
+}
