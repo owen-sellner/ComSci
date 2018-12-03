@@ -1,0 +1,21 @@
+#keypad {
+	background-color: darkgray; 
+	width: 55px;
+	height: 40px;
+	border: none;
+	border-radius: 10%;
+	margin: 5px;
+}
+
+input:hover {
+	background-color: green;
+}
+
+#specialKey1 {
+	background-color: blue;
+	width: 55px;
+	height: 40px;
+	border: none;
+	border-radius: 10%;
+	margin: 5px;
+}

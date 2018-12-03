@@ -127,11 +127,18 @@ function astrix(){
 
 function hide1(){
 	let x = document.getElementById("hideA");
+	let y = document.getElementById("buttonHide");
 	if (x.style.display === "none") {
 		x.style.display = "block";
 	}
 	else {
 		x.style.display = "none";
+	}
+	if (y == "Show more v") {
+		getElementById("buttonHide").innerHTML = "Show less ^";
+	}
+	else if (y == "Show less ^") {
+		getElementById("buttonHide").innerHTML = "Show more v";
 	}
 }
 
@@ -178,4 +185,18 @@ function GTN() {
 	tries++;	
 	}
 	alert("It took you "+tries+" tries to guess the number.");
+}
+
+// Assignment 6
+function AA6() {
+	var msgA = document.getElementById("inputAA6").value;
+	document.getElementById("outputAA6").innerHTML = "That is "+msgA.length+" long."
+}
+
+function AB6() {
+
+}
+
+function AC6() {
+
 }

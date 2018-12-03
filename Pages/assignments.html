@@ -4,6 +4,7 @@
 	<link rel="shortcut icon" type="image/png" href="../Images/favicon(stolen).png">
 	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
 	<script type="text/javascript" src="../JS/main.js"></script>
+	<script type="text/javascript" src="../JS/encrypt.js"></script>
 	<body bgcolor="#0E0B16">
 </head>
 <body>
@@ -60,13 +61,27 @@
 			</ul>
 		</p>
 	</div>
-<button onclick="hide1">Show more V</button>
+<button id="buttonHide" onclick="hide1()">Show more v</button>
 	
 <!-- The fourth assignment -->
 	<h2>Assignment 4</h2>
-<button onclick="assignA4()" id="A4">A4-Loops 1</button>
+<button id="b1" onclick="assignA4()" id="A4">A4-Loops 1</button>
 
-<button onclick="assignB4()" id="A4">A4-Loops 2</button>
+<button id="b1" onclick="assignB4()" id="A4">A4-Loops 2</button>
+<!-- The sixth assignment -->
+	<h2>Assignment 6</h2>
+<p>Encryption - Pig Latin</p>
+<div class="buttonAssign">
+	<button id="b1" onclick="pigEncryptC()">Encrypt</button>
+	<button id="b1" onclick="pigEncryptD()">Decrypt</button>
+</div>
+
+<p>Encryption - Shifted</p>
+<div class="buttonAssign">
+	<button id="b1" onclick="ranEncrypt()">Encrypt</button>
+	<button id="b1" onclick="ranDecrypt()">Decrypt</button>
+</div>
+
 </div>
 <div id="footer">
 <footer>

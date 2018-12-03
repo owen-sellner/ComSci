@@ -93,9 +93,19 @@ h2 {
 
 button {
 	padding: 20px;
-	background-color: purple;
+	background-color: gray;
 }
 
 #hideA {
 	display: none;
+}
+
+.buttonAssign {
+
+}
+
+#b1 {
+	width: 25%;
+	display: inline-block;
+	margin: 0 12%;
 }
